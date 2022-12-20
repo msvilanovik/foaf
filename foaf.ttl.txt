@@ -1,0 +1,35 @@
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix ns0: <http://webns.net/mvcb/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<https://raw.githubusercontent.com/msvilanovik/foaf/main/foaf.ttl.txt>
+  a foaf:PersonalProfileDocument ;
+  foaf:maker <https://raw.githubusercontent.com/msvilanovik/foaf/main/foaf.ttl.txt#me> ;
+  foaf:primaryTopic <https://raw.githubusercontent.com/msvilanovik/foaf/main/foaf.ttl.txt#me> ;
+  ns0:generatorAgent <http://www.ldodds.com/foaf/foaf-a-matic> ;
+  ns0:errorReportsTo <mailto:leigh@ldodds.com> .
+
+<https://raw.githubusercontent.com/msvilanovik/foaf/main/foaf.ttl.txt#me>
+  a foaf:Person ;
+  foaf:name "Monika Svilanovik" ;
+  foaf:title "Ms" ;
+  foaf:givenname "Monika" ;
+  foaf:family_name "Svilanovik" ;
+  foaf:nick "Moki" ;
+  foaf:mbox_sha1sum "bdbf3fae767b6767e0943805394333560c3a4e6a" ;
+  foaf:homepage <https://www.linkedin.com/in/monika-svilanovik-24674920b/> ;
+  foaf:phone <tel:+38975588799> ;
+  foaf:workplaceHomepage <https://www.microsoft.com/en-us/> ;
+  foaf:workInfoHomepage <https://azure.microsoft.com/en-us/> ;
+  foaf:schoolHomepage <https://www.finki.ukim.mk/> ;
+  foaf:knows [
+    a foaf:Person ;
+    foaf:name "Tamara" ;
+    foaf:mbox_sha1sum "1548bf5043974b1d9bd0eb88d340aca266ed2cac" ;
+    rdfs:seeAlso <https://www.dropbox.com/s/z8ohgpovtpf3kd6/foaf.ttl?dl=1>
+  ], [
+    a foaf:Person ;
+    foaf:name "Marija" ;
+    foaf:mbox_sha1sum "458771917a35cb4f8039b632096c6c40a4dcda7a" ;
+    rdfs:seeAlso <https://www.dropbox.com/s/r8xpc2l6sm6ua6m/foaf.ttl?dl=1>
+  ] .
